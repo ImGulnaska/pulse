@@ -9,7 +9,9 @@
     img {
         height: 169px;
         width: 169px;
-        margin-right: 60px;
+    }
+    &__wrapper {
+        margin-left: 60px;
     }
     &__name {
         font-weight: 700;

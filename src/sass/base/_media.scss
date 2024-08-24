@@ -1,0 +1,37 @@
+/*@media (max-width: 1920px) {
+
+    }
+}*/
+
+/*@media (max-width: 1200px) {
+
+}*/
+
+@media (max-width: 768px) {
+    .promo {
+        padding-right: 20px;
+    }
+    .advantages {
+        &__text {
+            width: 200px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    .consultation {
+        padding-left: 30px;
+    }
+    .reviews {
+        &__text {
+            width: 500px;
+        }
+        &__wrapper {
+            margin-left: 5px;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-evenly;
+        }
+    }
+}
