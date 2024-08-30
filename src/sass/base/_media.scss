@@ -37,8 +37,11 @@
     .footer {
         &__info {
             width: 360px;
-            height: 200px;
-            padding: 30px 24px 36px;
+            height: 250px;
+        }
+        &__address {
+            margin-bottom: 26px;
+            font-size: 10px;
         }
     }
 }
@@ -169,6 +172,7 @@
         }
     }
 }
+
 
 @media (max-width: 376px) {
     .title {
