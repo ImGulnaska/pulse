@@ -12,17 +12,20 @@ $(document).ready(function(){
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 576,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false
               }
             },
             {
-              breakpoint: 480,
+              breakpoint: 376,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                arrows: false
               }
             }
           ]
